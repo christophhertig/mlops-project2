@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements_without_jupyter.t
 
 COPY ./src /code/src
 
-CMD ["python", "app/main.py"]
+CMD ["python", "src/main.py"]
