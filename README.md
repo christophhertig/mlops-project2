@@ -13,7 +13,7 @@ Das Dockerfile mlops_final wurde auf der Grundlage von main.py erstellt. Die Kon
 ### Image laden per Docker Hub
 Das Docker Image kann über Docker Hub bezogen werden. Dazu muss folgender Befehl ausgeführt werden: *docker pull christoph01/mlops_final:latest*
 ### Image laden per mlops_final.tar File
-Das Docker Image kann auch über die Datei mlops_final.tar geladen werden. Das Image hat eine Grösse von 1.44GByte und kann über diesen Link heruntergeladen werden (Zugriffsrechte nur mit HSLU-Konto): https://hsluzern-my.sharepoint.com/:u:/g/personal/christoph_herzog_01_stud_hslu_ch/ESJyD0-cFYdCtvwYQR-ss_MB6RmOT3cVUtTe-VRqrL61tg?e=pzc7bV  
+Das Docker Image kann auch über die Datei mlops_final.tar geladen werden. Das Image hat eine Grösse von 1.44GByte und kann über diesen Link heruntergeladen werden (Zugriffsrechte nur mit HSLU-Konto): https://hsluzern-my.sharepoint.com/:f:/g/personal/christoph_herzog_01_stud_hslu_ch/Eg5JGH31agBNm43QRpZIfWcB5Ey_EJ2Bn9-F4D47KCpzsg?e=5Ne1JF  
 
 Um das Image zu Verwenden muss folgender Befehl ausgeführt werden: *docker load -i mlops_final.tar*
 
