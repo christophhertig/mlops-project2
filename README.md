@@ -1,8 +1,8 @@
 # mlops-project2
 HS23 MLOps Project 2  
-Willkomen zu meinem GitHub Repository von MLOps Project 2. Im Repository finden Sie die Dateien, welche für das Projekt erarbeitet wurden, Strukturiert nach den einzelnen Tasks des Projektes.
+Willkomen zu meinem GitHub Repository von MLOps Project 2. Im Repository finden Sie die Dateien, welche für das Projekt erarbeitet wurden, Strukturiert nach den einzelnen Tasks des Projektes. Das Jupyter Notebook "MLOPS_DistilBERT_MRPC_ChristophHerzog.ipynb" wurde im Rahmen von Projekt 1 erstellt und diente als Grundlage für die folgenden Arbeiten.
 ## Task 1: Jupyter Notebook zu Python Skript
-Das Jupyter Notebook "BLABLA" wurde im Rahmen von Projekt 1 erstellt. Dieses war die Grundlage von den nachfolgenden Dateien. Das Python Skript main.py ist die angepasste Version des Jupyter Notebooks. Beim Ausführen von main.py werden die Ergebnisse in Weights and Biases erfasst. Um das Skript auszuführen, müssen die Packages aus requirements_without_jupyter.txt installiert werden.  
+Das Python Skript src/main.py ist die angepasste Version des Jupyter Notebooks "MLOPS_DistilBERT_MRPC_ChristophHerzog.ipynb". Beim Ausführen von main.py werden die Ergebnisse in Weights and Biases erfasst. Um das Skript auszuführen, müssen die Packages aus requirements_without_jupyter.txt installiert werden.  
 
 Beim Ausführen von main.py können folgende Parameter übergeben werden:
 | Befehl                | Beschreibung                                      | Default-Wert       |
