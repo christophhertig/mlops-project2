@@ -1,6 +1,7 @@
 # mlops-project2
 HS23 MLOps Project 2  
-Willkomen zu meinem GitHub Repository von MLOps Project 2. Im Repository finden Sie die Dateien, welche für das Projekt erarbeitet wurden, Strukturiert nach den einzelnen Tasks des Projektes. Das Jupyter Notebook "MLOPS_DistilBERT_MRPC_ChristophHerzog.ipynb" wurde im Rahmen von Projekt 1 erstellt und diente als Grundlage für die folgenden Arbeiten.
+Willkomen zu meinem GitHub Repository von MLOps Project 2. Im Repository finden Sie die Dateien, welche für das Projekt erarbeitet wurden, Strukturiert nach den einzelnen Tasks des Projektes. Das Jupyter Notebook "MLOPS_DistilBERT_MRPC_ChristophHerzog.ipynb" wurde im Rahmen von Projekt 1 erstellt und diente als Grundlage für die folgenden Arbeiten.  
+Bei Fragen oder Unklarheiten stehe ich gerne zur Verfügung.
 ## Task 1: Jupyter Notebook zu Python Skript
 Das Python Skript src/main.py ist die angepasste Version des Jupyter Notebooks "MLOPS_DistilBERT_MRPC_ChristophHerzog.ipynb". Beim Ausführen von main.py werden die Ergebnisse in Weights and Biases erfasst. Um das Skript auszuführen, müssen die Packages aus requirements_without_jupyter.txt installiert werden.  
 
@@ -23,4 +24,7 @@ Das Dockerfile mlops_final wurde auf der Grundlage von main.py erstellt. Die Kon
 ### Docker Hub
 Das Docker Image kann über Docker Hub bezogen werden. Dazu muss folgender Befehl ausgeführt werden: *docker pull christoph01/mlops_final:latest*
 ### Image mlops_final.tar
-Das Docker Image kann auch über die Datei mlops_final.tar geladen werden. Dazu muss folgender Befehl ausgeführt werden: *docker load -i mlops_final.tar*
+Das Docker Image kann auch über die Datei mlops_final.tar geladen werden. Das Image hat eine Grösse von 1.44GByte und kann über diesen Link heruntergeladen werden (Zugriffsrechte nur mit HSLU-Konto): https://hsluzern-my.sharepoint.com/:u:/g/personal/christoph_herzog_01_stud_hslu_ch/ESJyD0-cFYdCtvwYQR-ss_MB6RmOT3cVUtTe-VRqrL61tg?e=pzc7bV  
+
+Um das Image zu Verwenden muss folgender Befehl ausgeführt werden: *docker load -i mlops_final.tar*
+
